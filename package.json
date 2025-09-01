@@ -1,0 +1,17 @@
+{
+  "name": "chd-zr-express-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for ZR Express API to bypass CORS",
+  "main": "api/zr-express.js",
+  "scripts": {
+    "start": "node api/zr-express.js",
+    "dev": "node api/zr-express.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

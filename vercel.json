@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "env": {
+    "ZR_EXPRESS_TOKEN": "3541877f95878892f64c98e16277688e902c9221583857bf68d73d5f5ee29234",
+    "ZR_EXPRESS_KEY": "59cd8026082b4ba995da7cd29e296f9b"
+  }
+}
